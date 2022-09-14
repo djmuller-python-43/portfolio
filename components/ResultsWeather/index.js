@@ -1,4 +1,3 @@
-import TodaysWeather from '../TodaysWeather';
 import SearchBox from '../SearchBox'
 import { Card, CardContent, Box, Typography } from '@mui/material'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
