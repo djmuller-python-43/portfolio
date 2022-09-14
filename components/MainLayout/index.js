@@ -13,7 +13,7 @@ const MainLayout = () => {
     
       <Box sx= {{marginTop: '110px'}}>
       <Navbar />
-        <h1>Duane Muller&aposs Portfolio</h1>
+        <h1>Duane Muller&apos;s Portfolio</h1>
         
       <Stack
       direction='row'
