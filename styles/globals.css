@@ -9,7 +9,7 @@
 
 html,
 body {
-  background-image: url('../public/duane_bg.jpg');
+  background-image: url('../components//MainLayout/duane_bg.jpg');
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
