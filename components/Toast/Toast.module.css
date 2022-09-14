@@ -1,0 +1,72 @@
+.container {
+  font-size: 14px;
+  position: fixed;
+  z-index: 10;
+}
+
+.button-right {
+  bottom: 1rem;
+  right: 1rem;
+  animation: toast-stage-right .7s;
+}
+
+.notification {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #999;
+  color: rgb(207,204,204);
+  opacity: 0.9;
+  transition: .3s ease; 
+}
+
+.notification:hover {
+  box-shadow: 0 0 12px #001c3e;
+  opacity: 1;
+}
+
+.toast {
+  height: 70px;
+  width: 365px;
+  color: rgb(207,204,204);
+}
+
+.container button {
+  float: right;
+  font-size: 14px;
+  padding-right: 10px;
+  padding-top: 10px;
+  background: none;
+  border: none;
+  color: rgb(207,204,204);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.container button:hover {
+  font-weight: 700;
+  color: rgb(207,204,204);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+@keyframes toast-stage-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

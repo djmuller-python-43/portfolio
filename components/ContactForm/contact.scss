@@ -1,0 +1,134 @@
+h3 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-shadow: 0px 3px 5px rgba(0,0,0,0.6);
+}
+
+.contact-container {
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+  overflow:hidden;
+  padding: 10px;
+  display: flex;
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(207,204,204,0.2);
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(207,204,204,0.75);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(207,204,204,0.75);
+  box-shadow: 0px 0px 8px 1px rgba(207,204,204,0.75);
+  .contact-info {
+    background-color: #001e3c;
+    border-radius: 15px;
+    flex: 0 1 40%;
+    padding: 40px;
+    color: rgb(207, 204, 204);
+    display: flex;
+    flex-direction: column;
+    h4 {
+      font-size: 1.7rem;
+      font-weight: 500;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+      color: rgba(207,204,204,0.7);
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+
+    .icon-text {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 20px;
+      svg {
+        flex: 0 0 20px;
+        font-size: 1rem;
+        margin-right: 1rem;
+      }
+      span {
+        font-size: 1rem;
+        font-weight: 300;
+      }
+    }
+  }
+form {
+  padding: 40px;
+  width: 100%;
+  .col{
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0 1 100%;
+    padding-right: 40px;
+
+    label {
+      font-size: .9rem;
+      color:rgb(207, 204, 204);
+      margin-bottom: 5px;;
+    }
+    input[type='text'], input[type='tel'], input[type='email'], textarea {
+      /* background: rgba(207,204,204,0.5); */
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 300;
+      background: transparent;
+      border-bottom: 2px solid rgba(207,204,204,0.2);
+      transition: all .3s ease-in-out;
+      margin-bottom: 1rem;
+      &:focus {
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgb(207, 204, 204);
+      }
+    }
+    &:nth-child(2) {
+      padding-right: 0;
+    }
+    #radio-buttons {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 2rem;
+      cursor: pointer;
+      .radio-button {
+        margin-right: 10px;
+      }
+      label {
+        font-size: 1.2rem;
+        margin-left: 5px;
+        cursor: pointer
+      }
+    }
+    &.solo {
+      padding: 0;
+      margin-top: 20px;
+    }
+    &.right {
+      align-items: flex-end;
+    }
+    button {
+      width: 200px;
+      height: 60px;
+      margin-right: 10px;
+      cursor: pointer;
+      background: #001e3c;
+      color:rgb(207, 204, 204);
+      border: none;
+      text-transform: uppercase;
+      border-radius: 10px;
+      &:hover {
+        background: rgb(207, 204, 204);
+        color: #001e3c;
+        transition: all .3s ease-in-out;
+    }
+  }
+  }
+  }
+}

@@ -1,26 +1,88 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
   box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
+  color: rgb(207, 204, 204);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+html,
+body {
+  background-image: url('../public/duane_bg.jpg');
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+    margin-top: 50px !important;
   }
-  body {
-    color: white;
-    background: black;
+
+  .location h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .css-1ma0zet-MuiStack-root {
+    display: block;
+  }
+
+  h3 {
+    font-size: 22px !important;
+  }
+
+  h4 {
+    font-size: 25px !important;
+  }
+
+  h5 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .extra {
+    font-size: 16px !important;
+  }
+
+  input[placeholder] {
+    font-size: 16px !important;
+    text-align: center;
+  }
+
+  .contact-container {
+    display: block !important;
+  }
+
+  .contact-info {
+    display: block;
+  }
+
+  .col {
+    display: block !important;
+  }
+
+  button.primary {
+    text-align: center;
+  }
+
+  .city-names {
+    font-size: 18px;
   }
 }
+
+
+
+
+
+
+
+
