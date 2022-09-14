@@ -20,7 +20,7 @@ const ResultsWeather = ({ city, weather, temp, wind, sys }) => {
       <SearchBox placeholder = 'Search weather in any town in SA'/>
         <CardContent>
           <div className="main-container">
-            <h2>Today\'s Weather</h2>
+            <h2>Today&aposs Weather</h2>
             <div className="location">
               <h3><FontAwesomeIcon icon={faStreetView} /></h3>
               {<h1>{city.city}{' || '}{city.province}</h1>}

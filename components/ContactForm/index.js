@@ -77,7 +77,7 @@ const ContactForm = () => {
         <div className="contact-info">
         <h4>Contact Information</h4>
         <p>Please complete the form,</p>
-        <p>we\'ll get back to you within 24hrs</p>
+        <p>we&aposll get back to you within 24hrs</p>
         <div className="icon-text">
         <FontAwesomeIcon icon={faPhone} className='icon' />
           <span>+27 60 325 6105</span>

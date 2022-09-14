@@ -6,7 +6,7 @@ const Toast = ({ toastlist, position, setList }) => {
   const deleteToast = useCallback(id => {
     const toastListItem = toastlist.filter(e => e.id !== id)
     setList(toastListItem)
-  }, [toastlist])
+  }, [toastlist, setList])
 
   useEffect(() => {
     const interval = setInterval(() => {
