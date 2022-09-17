@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from '@mui/material'
 import Image from 'next/image'
-import myPic from '../../public/duane.jpg'
+import myPic from './duane.jpg'
 import Link from 'next/link'
 
 
