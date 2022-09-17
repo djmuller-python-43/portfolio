@@ -2,9 +2,15 @@ import React from 'react'
 import ContactForm from '../ContactForm/index'
 import { Box, Stack } from '@mui/material'
 import Navbar from '../Navbar/index'
+import dynamic from 'next/dynamic'
+
+const BgImage = dynamic(() => import('../BgImage'), {
+  ssr: false
+})  
 
 const ContactLayout = () => {
   return (
+    <>
     <Box sx= {{marginTop: '110px'}}>
     <Navbar />
     <Stack
@@ -18,6 +24,8 @@ const ContactLayout = () => {
       <ContactForm />
     </Stack>
   </Box>
+  <BgImage />
+  </>
   )
 }
 

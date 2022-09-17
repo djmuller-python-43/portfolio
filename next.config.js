@@ -3,7 +3,7 @@ module.exports = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['openweathermap.org'],
+    domains: ['openweathermap.org', 'source.unsplash.com'],
     loader: 'akamai',
     path: '',
   }
