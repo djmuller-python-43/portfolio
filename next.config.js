@@ -4,7 +4,6 @@ module.exports = {
   swcMinify: true,
   images: {
     domains: ['openweathermap.org', 'source.unsplash.com'],
-    loader: 'akamai',
-    path: '',
+    
   }
 }

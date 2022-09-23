@@ -11,9 +11,6 @@ const BgImage = dynamic(() => import('../BgImage'), {
 })  
 
 
-
-
-
 const MainLayout = () => {
   
   return (

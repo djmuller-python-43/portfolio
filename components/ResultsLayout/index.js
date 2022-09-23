@@ -6,7 +6,7 @@ import Navbar from '../Navbar/index'
 import dynamic from 'next/dynamic'
 
 
-const BgImage = dynamic(() => import('../BgImage'), {
+const BgImage = dynamic(() => import('../BgImage/index'), {
   ssr: false
 }) 
 
